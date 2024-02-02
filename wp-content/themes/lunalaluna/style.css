@@ -1,0 +1,85 @@
+/*
+Theme Name: Luna La Luna
+Theme URI: https://luna.victorbenazzi.tech
+Author: A beautiful, modern, and minimalist theme for WordPress.
+Author URI: https://victorbenazzi.tech
+
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --background: #09090b;
+    --primary: #fafafa;
+    --secondary: #e4e4e7;
+    --accent: #6366f1;
+    --accent-hover: #818cf8;
+    --border: #27272a;
+    --white: #ffffff;
+    --destructive: #db2777;
+    --muted: #a1a1aa;
+    --radius: 8px;
+    --big-radius: 16px;
+    --padding: 0.5rem 1rem;
+    --big-padding: 1.5rem;
+    --main-transition: all ease-in-out 300ms;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: var(--background);
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 2.8rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+h2{
+    font-size: 2rem;
+    line-height: 1.8rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.125rem;
+    line-height: 1rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+
+p {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: var(--secondary);
+    font-weight: normal;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
+a:hover {
+    color: var(--accent-hover);
+}
