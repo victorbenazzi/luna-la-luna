@@ -9,6 +9,14 @@
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
         <?php wp_head() ?>
 	</head>
-
 <body>
+    <header class="header">
+        <div class="container">
+            <img src="http://localhost/luna-la-luna/wp-content/uploads/2024/02/logo.png" class="logo" alt="Luna La Luna" >
+            <nav class="header-menu">
+                <?php wp_nav_menu(array('theme_location' => 'header-menu')) ?>
+            </nav>
+            <a href="#" class="button" aria-label="Botão de contato">Botão</a>
+        </div>
+    </header>
 
